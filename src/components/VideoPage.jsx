@@ -3,6 +3,12 @@ import { useParams } from "react-router-dom";
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
 import { APP_ID, SERVER_SOCKET } from "./constant";
 
+//////////////////////////////////////////////////////  for env   ///////////////////////////////////////////////
+// require("dotenv").config();
+
+// console.log(process.env.APP_ID);
+// console.log(process.env.SERVER_SOCKET);
+
 const VideoPage = () => {
   const { id } = useParams();
 
